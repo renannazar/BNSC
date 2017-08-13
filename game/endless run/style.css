@@ -1,0 +1,15 @@
+.container {
+	position: relative;
+}
+#canvas {
+	position: absolute;
+	top: 0;
+}
+#canvas2 {
+	position: absolute;
+	top: 0;
+}
+#canvas3 {
+	position: absolute;
+	top: 0;
+}

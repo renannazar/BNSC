@@ -1,0 +1,174 @@
+/*CSS CONFIGURATION REGISTER*/
+body {
+	margin: 0;
+	font-family: 'lato-regular';
+}
+
+/*All Configuration*/
+.left-container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.container-d {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.clear {
+	float: none;
+	clear: both;
+}
+
+.color-red {
+	color: #ed145b;
+}
+
+
+/*Fonts embled*/
+@font-face {
+	font-family: 'lato-regular';
+	src : url('../fonts/lato/Lato-Regular.ttf');
+}
+@font-face {
+	font-family: 'lato-light';
+	src : url('../fonts/lato/Lato-Light.ttf');
+}
+@font-face {
+	font-family: 'lato-bold';
+	src : url('../fonts/lato/Lato-Bold.ttf');
+}
+@font-face {
+	font-family: 'lato-thin';
+	src : url('../fonts/lato/Lato-Thin.ttf');
+}
+
+/*Code*/
+#left-page {
+	float: left;
+	background: #ffffff;
+	width:45%;
+	height: 100%;
+	text-align: center;
+}
+.register-title {
+	margin-top: 30px;
+	max-width: 450px;
+	display: inline-block;
+}
+.register-title h2 {
+	display: inline-block;
+	margin: 0;
+}
+.register-title img {
+	display: none;
+}
+.register-title p {
+	margin: 10px 0;
+	color: #535353;
+}
+.data-reg {
+	margin-top: 20px;
+	width: 350px;
+	display: inline-block;
+}
+.form-group {
+	display: block;
+	padding: 5px 0;
+}
+.fieldset-form {
+	border-radius: 10px;
+	border: 2px solid #dfe3e6;
+	padding: 0 15px;
+}
+.form-group input {
+	width: 290px;
+	border: none;
+	float: left;
+	padding: 10px 0;
+	outline: none;
+}
+.error-close {
+	margin: 10px 0;
+	color: #ed145b;
+}
+
+.form-picture,
+.form-captcha {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	margin: 10px 0;
+}
+.form-picture {
+	float: left;
+}
+.form-picture input {
+	/*background: #dfe3e6;
+	border: none;*/
+	display: none;
+}
+.ofcourse {
+	font-size: 13px;
+	color: #535353;
+}
+.ofcourse span{
+	background: #dfe3e6;
+	padding: 5px;
+}
+.captcha {
+	display: inline-block;
+	float: left;
+}
+.captcha img {
+	height: 23px;
+}
+.form-captcha {
+	float: right;
+}
+.form-captcha input{
+	width: 100px;
+	border: 1px solid #dfe3e6;
+}
+
+.display-error {
+	margin-top: 10px;
+	color: #ed145b;
+}
+
+.bbb {
+	width: 450px;
+	margin-top: 30px;
+	display: inline-block;
+}
+.already {
+	display: inline-block;
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+.already p {
+	margin: 0;
+}
+.btn-submit {
+	float: right;
+}
+.btn-reg {
+	padding: 10px 30px;
+	background: #ed145b;
+	border: none;
+	color: #ffffff;
+}
+
+#right-page {
+	background: #ed145b;
+	width:55%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img-reg {
+}
+
+.input-error {
+	border: 2px solid #ed145b;
+}

@@ -1,0 +1,261 @@
+/*Responsive View*/
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container-d {
+		/*max-width: 768px; */
+		width: 600px;
+	}
+	#gallery {
+		text-align: center;
+	}
+	.picture-gallery {
+		float: none;
+	}
+	.video-gallery {
+		float: none;
+	}
+	.picture-pack {
+		margin-top: 10px;
+	}
+	.picture-pack a img,
+	.picture-pack-more img,
+	.picture-pack-more div {
+		width: 180px;
+		height: 150px;
+	}
+	#about {
+		text-align: center;
+	}
+	.about-image {
+		float: none;
+		margin: 0;
+	}
+	.description-about {
+		text-align: center;
+		margin-top: 70px;
+	}
+	#player {
+		text-align: center;
+	}
+	.leaderboard {
+		float: none;
+		margin: 0;
+	}
+	.player-desc fieldset input {
+		width: 90%;
+	}
+
+	.top-footer {
+		text-align: center;
+		padding: 70px 0;
+	}
+	.foot-img {
+		float: none;
+	}
+	.foot-img img {
+		width: 250px;
+	}
+	.foot-subscribe {
+		float: none;
+		display: inline-block;
+		margin-top: 50px;
+	}
+	footer {
+		text-align: center;
+	}
+
+
+	/*Register Page*/
+	#right-page {
+		display: none;
+	}
+	#left-page {
+		width: 100%;
+	}
+	.register-title h2 {
+		margin-top: 20px;
+	}
+	.register-title img {
+		display: block;
+		text-align: center;
+		width: 150px;
+		margin: 0 auto;
+	}
+}
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 320px) {
+  	p {
+  		text-align: center;
+  		font-size: 14px;
+  		text-transform: none;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	.container-d { 
+		width: 95%; 
+	}
+
+	#ads {
+		display:none;
+	}
+	.banner-content {
+		margin: 20px 0;
+	}
+	.logo-web {
+		margin: 20px;
+	}
+	.logo-web img {
+		width: 150px;
+	}
+	.image-banner {
+		width: 200px;
+		height: 120px;
+	}
+	.image-banner img {
+		width: 200px;
+	}
+	.btn-banner {
+		margin: 20px 0;
+		font-size: 12px;
+		padding: 10px 20px;
+	}
+
+	#gallery {
+		text-align: center;
+	}
+	.picture-gallery {
+		float: none;
+		text-align: center;
+	}
+	.video-gallery {
+		float: none;
+		width: 290px;
+		height:280px;
+	}
+	.picture-pack,
+	.picture-pack-more {
+		margin: 0;
+	}
+	.picture-pack a img,
+	.picture-pack-more img,
+	.picture-pack-more div {
+		width: 90px;
+		height: 70px;
+	}
+	.picture-pack-more div a {
+		padding: 20px 10px;
+	}
+	#about {
+		text-align: center;
+		padding: 20px 0;
+	}
+	.about-image {
+		float: none;
+		margin: 0;
+	}
+	.about-image img {
+		width: 200px;
+	}
+	.description-about {
+		text-align: center;
+		margin-top: 70px;
+	}
+	#player {
+		text-align: center;
+	}
+	.leaderboard {
+		float: none;
+		width: 200px;
+		display: inline-block;
+		margin: 0;
+	}
+	.player-desc fieldset input {
+		width: 80%;
+	}
+
+	.top-footer {
+		text-align: center;
+		padding: 70px 0;
+	}
+	.foot-img {
+		float: none;
+	}
+	.foot-img img {
+		width: 250px;
+	}
+	.foot-subscribe {
+		float: none;
+		display: inline-block;
+		margin-top: 50px;
+		width: 250px;
+	}
+	.follow span {
+		float: none;
+		margin: 10px 0;
+		display: inline-block;
+	}
+	footer {
+		text-align: center;
+	}
+	footer {
+		text-align: center;
+	}
+
+	/*Register Page*/
+	#right-page {
+		display: none;
+	}
+	#left-page {
+		width: 100%;
+	}
+	.data-reg {
+		width: 290px;
+	}
+	.form-group input {
+		width: 235px;
+	}
+	.bbb {
+		width: 260px;
+	}
+	.already {
+		width: 140px;
+	}
+	.already p {
+		text-align: left;
+	}
+	.register-title {
+		margin: 10px 10px 0px 10px;
+	}
+	.register-title h2 {
+		font-size: 28px;
+		float: left;
+	}
+	.register-title img {
+		display: block;
+		float: right;
+		height: 35px;
+	}
+	.register-title p {
+		font-size: 12px;
+	}
+}
+
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container-d {
+		width: 70%;
+	}
+
+	#ads {
+		display:none;
+	}
+
+}
